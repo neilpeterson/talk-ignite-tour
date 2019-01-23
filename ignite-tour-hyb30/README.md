@@ -55,6 +55,14 @@ ConfigurationChange
 
 At this point, stop IIS on a VM. Once completed cary on with these steps while giving the alert action groups an opportunity to run.
 
+**Azure Automation**
+
+- Show Runbook solution
+- Show Runbook in detail
+- Show job logs
+- Show Teams message
+- Show Teams email
+
 **File diff**
 
 This is not IIS-related, but a cool solution.
@@ -69,11 +77,3 @@ ConfigurationChange
 | where ConfigChangeType == "Files"
 | where FileSystemPath == "/etc/host.conf"
 ```
-
-**Azure Automation**
-
-- Show Runbook solution
-- Show Runbook in detail
-- Show job logs
-- Show Teams message
-- Show Teams email
