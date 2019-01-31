@@ -1,3 +1,6 @@
+# Create Resource Group
+New-AzResourceGroup -Name myACIDemo -Location Eastus
+
 # Create container
 New-AzContainerGroup -ResourceGroup myACIDemo -Name mycontainerposh -Image microsoft/aci-helloworld -DnsNameLabel aci-demo-007-posh
 

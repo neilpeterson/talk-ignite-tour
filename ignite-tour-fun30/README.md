@@ -39,6 +39,10 @@ Markdown support:
 - Execute one if you want
 - Finally, take a look at docs integration
 
+```
+git clone https://github.com/neilpeterson/talk-ignite-tour.git
+```
+
 ## Demo 3: Azure Templates
 
 - Quick tour of the include templates
