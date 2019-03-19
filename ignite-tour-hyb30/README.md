@@ -7,7 +7,7 @@
 **DSC:**
 
 - Step through DSC Solution
-- Crate  and compile state configuration (scripts)
+- Crate and compile state configuration (scripts)
 - Reassign VM to new configuration (manual)
 
 **Inventory and State Tracking:**
