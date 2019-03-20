@@ -1,8 +1,10 @@
+$name = "ams-demo001"
+
 # Create Resource Group
-New-AzResourceGroup -Name myACIDemo -Location Eastus
+New-AzResourceGroup -Name $name  -Location Eastus
 
 # Create container
-New-AzContainerGroup -ResourceGroup myACIDemo -Name mycontainerposh -Image microsoft/aci-helloworld -DnsNameLabel aci-demo-007-posh
+New-AzContainerGroup -ResourceGroup $name  -Name $name  -Image microsoft/aci-helloworld -DnsNameLabel $name
 
 # Get Public IP Address
-Get-AzContainerGroup | where {$_.Name -eq 'mycontainerposh'} | Select IpAddress
+Get-AzContainerGroup | where {$_.Name -eq $name} | Select IpAddress

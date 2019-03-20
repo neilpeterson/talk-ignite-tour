@@ -17,6 +17,7 @@ Code editing (Node JS example):
 - Split screen / side by side
 - Debugging (execute code locally)
 - Debugging (break point)
+- Deploy to Azure
 - Git integration
 
 PowerShell / CLI:
