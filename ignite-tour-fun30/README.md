@@ -5,7 +5,7 @@
 General tour of Visual Studio Code. Things to highlight include:
 
 - Activity bar (file explorer / extensions)
-- Editor pane (show split editor)
+- Editor pane
 - Panel (Output / Terminal)
 
 Code editing (Node JS example):
