@@ -39,9 +39,12 @@ Create container instance which will not be tagged.
 az container create --name contianer$RANDOM --resource-group policy-demo-custom --image microsoft/aci-helloworld
 ```
 
+## Initiative
+
 - [PORTAL] Create RG and apply initiative (Storage and VM SKU)
 
 ## Blueprints
 
 - [PORTAL] Manually create blueprint
+- [Portal] Show new blueprint templates
 - Azure DevOps demo
