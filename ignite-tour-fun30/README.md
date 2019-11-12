@@ -22,6 +22,7 @@ Code editing (Node JS example):
 
 PowerShell / CLI:
 
+- am vm list
 - az vm list -o table
 - get-azvm
 
