@@ -22,14 +22,16 @@ Code editing (Node JS example):
 
 PowerShell / CLI:
 
-- am vm list
+- az --version
+- az login
+- az vm list
 - az vm list -o table
+- sh ignite-tour-fun30/2-cli-posh/aci.sh
+
+- Get-Module -ListAvailable
+- Connect-AzAccount
 - get-azvm
-
-Markdown support:
-
-- Markdown authoring
-- Rendering preview
+- pwsh ignite-tour-fun30/2-cli-posh/aci.ps1
 
 ## Demo 2: Cloud Shell
 
@@ -49,4 +51,5 @@ git clone https://github.com/neilpeterson/talk-ignite-tour.git
 
 - Quick tour of the include templates
 - Point out parameters, variables, resources, and outputs
-
+- az group create --name test123 --location eastus
+- az group deployment create --name test123 --resource-group test123 --template-file ignite-tour-fun30/3-arm_template/azuredeploy.json

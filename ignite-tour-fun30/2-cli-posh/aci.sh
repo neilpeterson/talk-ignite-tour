@@ -1,4 +1,4 @@
-NAME=ams-cli-demo-001
+NAME=tokyo-cli-demo-001
 
 # Create Resource Group
 az group create --name $NAME --location eastus
