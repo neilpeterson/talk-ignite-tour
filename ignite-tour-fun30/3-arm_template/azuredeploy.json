@@ -13,8 +13,8 @@
   },
   "variables": {
     "location": "[resourceGroup().location]",
-    "memoryInGb": "1.5",
-    "cpuCores": "1.0",
+    "memoryInGb": 1.5,
+    "cpuCores": 1,
     "port": "80"
   },
   "resources": [

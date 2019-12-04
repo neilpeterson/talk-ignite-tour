@@ -1,4 +1,4 @@
-$name = "tokyo-demo001"
+$name = "tokyo-powershell-demo001"
 
 # Create Resource Group
 New-AzResourceGroup -Name $name  -Location Eastus

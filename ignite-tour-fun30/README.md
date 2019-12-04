@@ -28,6 +28,7 @@ PowerShell / CLI:
 - az vm list -o table
 - sh ignite-tour-fun30/2-cli-posh/aci.sh
 
+- pwsh
 - Get-Module -ListAvailable
 - Connect-AzAccount
 - get-azvm
@@ -51,5 +52,5 @@ git clone https://github.com/neilpeterson/talk-ignite-tour.git
 
 - Quick tour of the include templates
 - Point out parameters, variables, resources, and outputs
-- az group create --name test123 --location eastus
-- az group deployment create --name test123 --resource-group test123 --template-file ignite-tour-fun30/3-arm_template/azuredeploy.json
+- az group create --name what-if-demo --location eastus
+- az group deployment create --name what-if-demo --resource-group what-if-demo --template-file ignite-tour-fun30/3-arm_template/azuredeploy.json
